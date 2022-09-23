@@ -1,7 +1,7 @@
 pipeline{
  agent slave
     stages{
-	   stage('checkout){
+	   stage('checkout'){
 	     steps{
 		    git 'https://github.com/grvsobha/DevOpsClassCodes.git'
 		 }
